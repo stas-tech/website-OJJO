@@ -1,0 +1,56 @@
+.shop_position {
+  background: black;
+  min-height: 541px;
+
+  &__tiny_header {
+    padding-top: 100px;
+    padding-bottom: 15px;
+
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__header {
+    padding-bottom: 45px;
+
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__text {
+    padding-bottom: 60px;
+
+    font-size: 18px;
+
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__button_wrapper {
+    padding-bottom: 100px;
+    width: 224px;
+    height: 51px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__button {
+
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+
+    width: 250px;
+    height: 51px;
+    padding: 15px 35px;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,129 @@
+.products {
+  min-height: 841px;
+  margin-bottom: 128px;
+
+
+  &__wrapper_products {
+    display: grid;
+    grid-template: repeat(2, 40%)/ repeat(3,  29%);
+    grid-column-gap: 6.5%;
+    grid-row-gap: 5%;
+
+    height: 527px;
+
+
+  }
+
+  &__product {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+  }
+
+  &__prosuct-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  &__prosuct-link img {
+    width: 100%;
+  }
+  &__prosuct-link p {
+    text-align: center;
+    position: relative;
+    top: -3em;
+  }
+
+  &__wrapper_buttons {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 120px;
+
+
+  }
+  &__button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__button button {
+    width: 171px;
+    height: 72px;
+    padding: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid #d6d6d6;
+    position: relative;
+    letter-spacing: 1px;
+  }
+
+  &__button button::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -17%;
+    left: -7%;
+    color: #333333;
+    background: #f9f9f9;
+    border: 1px solid #d6d6d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s ease-in-out;
+
+  }
+
+  &__button button:hover::before {
+    top: 0;
+    left: 0;
+    background: #333333;
+    color: #FFFFFF;
+  }
+  &__subheader {
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+    margin-top: 128px;
+  }
+  &__header {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+  }
+}
+
+
+#btn6::before {
+  content: 'редкость';
+}
+#btn1::before {
+  content: 'Свадьба';
+}
+#btn2::before {
+  content: 'МУЖУ';
+}
+#btn3::before {
+  content: 'жене';
+}
+#btn4::before {
+  content: 'партнеру';
+}
+#btn5::before {
+  content: 'коллекции';
+}

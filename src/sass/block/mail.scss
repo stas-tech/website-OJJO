@@ -1,0 +1,96 @@
+.mail {
+  background: url("../img/second_background.png") center center/cover no-repeat;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 120px;
+
+  &__subheader {
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+    margin-top: 128px;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+  &__header {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 60px;
+    color: white;
+  }
+
+
+
+  &_block {
+    border: 1px solid white;
+    width: 448px;
+    height: 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  &_block2 {
+    background-color: white;
+    width: 418px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+  }
+
+  &_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(51, 51, 51, 0.5);
+    width: 200px;
+    height: 45px;
+    margin-left: 22px;
+    margin-right: 15px;
+  }
+
+  &_submit {
+    background: #333333;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 159px;
+    height: 45px;
+    color: #FFFFFF;
+  }
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+}
+
+.plus {
+  padding-top: 15px;
+  display: flex;
+  padding-right: 80px;
+
+
+}
+
+.plus img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.plus p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}

@@ -1,0 +1,4 @@
+require("./module/footer.js")
+
+console.log (' Привет от JavaScript!');
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtYWluLmpzIl0sInNvdXJjZXNDb250ZW50IjpbInJlcXVpcmUoXCIuL21vZHVsZS9mb290ZXIuanNcIilcclxuXHJcbmNvbnNvbGUubG9nICgnINCf0YDQuNCy0LXRgiDQvtGCIEphdmFTY3JpcHQhJyk7Il0sImZpbGUiOiJtYWluLmpzIn0=
