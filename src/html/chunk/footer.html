@@ -2,8 +2,8 @@
     <div class="container">
     <div class="footer_wrapper">
         <div class="footer_item">
-            <input value="1" name="footer_inputs" id="footer__item_1" class="footer__switch" type="radio">
-            <label for="footer__item_1" class="footer__headline"><h2 class="footer_header">Полезные ссылки</h2></label>
+            <input value="1" name="footer_inputs" id="footer__item_1" class="footer__switch" type="radio" onclick="radioClick(this)">
+            <label for="footer__item_1" class="footer__headline"><h2 class="footer_header">Полезные ссылки</h2><div class="footer__headline-icon" id="footer__headline-icon_1"><box-icon name='down-arrow' ></box-icon></div></label>
             <div class="footer__body">
                 <a href="#" class="footer_links-link">Доставка</a>
                 <a href="#" class="footer_links-link">Оплата </a>
@@ -12,8 +12,8 @@
             </div>
         </div>
         <div class="footer_item">
-            <input value="2" name="footer_inputs" id="footer__item_2" class="footer__switch" type="radio">
-            <label for="footer__item_2" class="footer__headline"><h2 class="footer_header">оплата</h2></label>
+            <input value="2" name="footer_inputs" id="footer__item_2" class="footer__switch" type="radio" onclick="radioClick(this)">
+            <label for="footer__item_2" class="footer__headline"><h2 class="footer_header">оплата</h2><div class="footer__headline-icon" id="footer__headline-icon_2"><box-icon name='down-arrow' ></box-icon></div></label>
             <div class="footer__body">
             <div class="footer_descr footer_text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Ullamcorper<br> justo, nec, pellentesque.</div>
             <div class="footer_payment-wrapper">
@@ -23,8 +23,8 @@
             </div>
         </div>
         <div class="footer_item">
-            <input value="3" name="footer_inputs" name="footer_inputs" id="footer__item_3" class="footer__switch" type="radio">
-            <label for="footer__item_3" class="footer__headline"><h2 class="footer_header">контакты</h2></label>
+            <input value="3" name="footer_inputs" name="footer_inputs" id="footer__item_3" class="footer__switch" type="radio" onclick="radioClick(this)">
+            <label for="footer__item_3" class="footer__headline"><h2 class="footer_header">контакты</h2><div class="footer__headline-icon" id="footer__headline-icon_3"><box-icon name='down-arrow' ></box-icon></div></label>
             <div class="footer__body">
             <div class="footer_contacts-wrapper">
                 <div class="footer_contacts-item icon"><box-icon type='solid' name='phone'></box-icon></div>
@@ -47,7 +47,7 @@
         </div>
         <div class="footer_item">
             <input value="4" name="footer_inputs" id="footer__item_4" class="footer__switch" type="radio" onclick="radioClick(this)">
-            <label for="footer__item_4" class="footer__headline"><h2 class="footer_header">социальные сети</h2></label>
+            <label for="footer__item_4" class="footer__headline"><h2 class="footer_header">социальные сети</h2><div class="footer__headline-icon" id="footer__headline-icon_4"><box-icon name='down-arrow' ></box-icon></div></label>
             <div class="footer__body">
 
             <div class="footer_descr footer_text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Ullamcorper <br> justo, nec, pellentesque.</div>
@@ -70,15 +70,26 @@
             </div>
             </div>
         </div>
+        <div class="footer_item" id="footer_item_other">
+            <input value="5" name="footer_inputs" id="footer__item_5" class="footer__switch" type="radio" onclick="radioClick(this)">
+            <label for="footer__item_5" class="footer__headline"><h2 class="footer_header">Другое</h2><div class="footer__headline-icon" id="footer__headline-icon_5"><box-icon name='down-arrow' ></box-icon></div></label>
+
+            <div class="footer__body">
+                <div class="footer_wrapper-links" id="footer_wrapper-links1">
+                    <a href="" class="footer_wrapper-links-item footer_text">(c) 2020 OJJO jewelry</a>
+                    <a href="" class="footer_wrapper-links-item footer_text">Договор публичной офферты</a>
+                    <a href="" class="footer_wrapper-links-item footer_text">Контрагентам</a>
+                    <a href="" class="footer_wrapper-links-item footer_text">Сделано Figma.info</a>
+                </div>
+            </div>
+        </div>
 
     </div>
-    <div class="footer_wrapper-links">
-
+    <div class="footer_wrapper-links" id="footer_wrapper-links2">
             <a href="" class="footer_wrapper-links-item footer_text">(c) 2020 OJJO jewelry</a>
             <a href="" class="footer_wrapper-links-item footer_text">Договор публичной офферты</a>
             <a href="" class="footer_wrapper-links-item footer_text">Контрагентам</a>
             <a href="" class="footer_wrapper-links-item footer_text">Сделано Figma.info</a>
-        </div>
     </div>
-    </div>
+
 </section>

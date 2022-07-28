@@ -35,15 +35,8 @@
   .mail_block {
     margin-top: 30px;
   }
-  .gift__wrapper_imgs {
-    flex-direction: column;
-    align-items: center;
 
-  }
-  .gift__img {
-    width: 350px;
-    margin-bottom: 30px;
-  }
+
   .products__wrapper_products {
     grid-template:  repeat(3, 30%) / repeat(2, 45%);
     column-gap: 10%;
@@ -55,6 +48,17 @@
 @media all and (max-width: 800px) {
   .container {
     width: 90%;
+  }
+  .gift__wrapper_imgs {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .gift__link {
+    width: 65%;
+    margin-bottom: 25px;
   }
   .promo__img-logo {
     position: absolute;
@@ -195,6 +199,28 @@
 
 }
 @media all and (max-width: 620px) {
+  .footer__body {
+    height: 0;
+  }
+  .footer_wrapper {
+    border-bottom: none;
+  }
+  #footer_item_other {
+    display: block;
+  }
+  #footer_wrapper-links2 {
+    display: none;
+  }
+  .footer_wrapper-links {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .footer__headline-icon {
+    display: block;
+  }
+  .footer_wrapper-links-item {
+    margin-top: 5px;
+  }
   .mail_block {
     width: 68.5%;
     height: 130px;
@@ -206,9 +232,10 @@
   }
   .mail_text {
     margin-top: 10px;
+    width: 90%;
   }
   .mail_submit {
-    width: 200px;
+    width: 90%;
     margin-top: 10px;
     margin-bottom: 10px;
   }

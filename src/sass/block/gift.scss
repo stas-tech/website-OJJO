@@ -1,5 +1,18 @@
 .gift {
+  &__img-gradient {
+    position:relative;
+    display:inline-block;
+  }
+  &__img-gradient:before {
+    background: linear-gradient(180deg, rgba(101, 100, 100, 0) 0%, #333333 100%);
+    content:'';
+    position:absolute;
+    left:0; top:0;
+    width:100%; height:100%;
+    display:inline-block;
 
+
+  }
   &__small_text {
     margin-top: 120px;
 
@@ -30,19 +43,32 @@
   }
 
 
-  &__img {
-    padding-bottom: 35px;
+  &__link {
+    position: relative;
     font-size: 21px;
     line-height: 140%;
     font-weight: 400;
     color: #FFFFFF;
+    height: 100%;
+    text-decoration: none;
+    width: 32%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    height: 370px;
-    text-decoration: none;
-    width: 31%;
+
   }
+  &__link p{
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+
+  }
+  &__img {
+    
+    width: 100%;
+
+  }
+
+
 
 
   &__read-blog {
@@ -58,12 +84,4 @@
   }
 }
 
-#gift__img-id1 {
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url("../img/image_1.png") no-repeat;
-}
-#gift__img-id2 {
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url("../img/image_2.png") no-repeat;
-}
-#gift__img-id3 {
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url("../img/image_3.png") no-repeat;
-}
+
